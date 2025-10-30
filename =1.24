@@ -1,0 +1,2896 @@
+2 channel Terms of Service accepted
+Channels:
+ - conda-forge
+ - defaults
+Platform: linux-64
+Collecting package metadata (repodata.json): - \ | / - \ | / done
+Solving environment: \ | / - \ | / - done
+
+## Package Plan ##
+
+  environment location: /home/cworr/miniconda3/envs/nyc_airbnb_dev
+
+  added / updated specs:
+    - mlflow=2.14.1
+    - numpy
+    - pandas
+    - python=3.10
+    - scikit-learn
+    - wandb=0.16.6
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    alembic-1.17.1             |     pyhd8ed1ab_0         162 KB  conda-forge
+    appdirs-1.4.4              |     pyhd8ed1ab_1          14 KB  conda-forge
+    argon2-cffi-bindings-25.1.0|  py310h7c4b9e2_1          34 KB  conda-forge
+    attr-2.5.2                 |       h39aace5_0          66 KB  conda-forge
+    aws-c-auth-0.7.22          |      hbd3ac97_10         104 KB  conda-forge
+    aws-c-cal-0.7.1            |       h87b94db_1          46 KB  conda-forge
+    aws-c-common-0.9.23        |       h4ab18f5_0         230 KB  conda-forge
+    aws-c-compression-0.2.18   |       he027950_7          19 KB  conda-forge
+    aws-c-event-stream-0.4.2   |      h7671281_15          53 KB  conda-forge
+    aws-c-http-0.8.2           |       he17ee6b_6         190 KB  conda-forge
+    aws-c-io-0.14.10           |       h826b7d6_1         154 KB  conda-forge
+    aws-c-mqtt-0.10.4          |       hcd6a914_8         160 KB  conda-forge
+    aws-c-s3-0.6.0             |       h365ddd8_2         108 KB  conda-forge
+    aws-c-sdkutils-0.1.16      |       he027950_3          54 KB  conda-forge
+    aws-checksums-0.1.18       |       he027950_7          49 KB  conda-forge
+    aws-crt-cpp-0.27.3         |       hda66527_2         337 KB  conda-forge
+    aws-sdk-cpp-1.11.329       |       h46c3b66_9         3.5 MB  conda-forge
+    bcrypt-5.0.0               |  py310hd8f68c5_0         284 KB  conda-forge
+    blinker-1.9.0              |     pyhff2d567_0          14 KB  conda-forge
+    brotli-1.1.0               |       hb03c661_4          19 KB  conda-forge
+    brotli-bin-1.1.0           |       hb03c661_4          19 KB  conda-forge
+    brotli-python-1.1.0        |  py310hea6c23e_4         346 KB  conda-forge
+    c-ares-1.34.5              |       hb9d3cd8_0         202 KB  conda-forge
+    cachetools-5.5.2           |     pyhd8ed1ab_0          15 KB  conda-forge
+    cffi-2.0.0                 |  py310he7384ee_1         239 KB  conda-forge
+    click-8.3.0                |     pyh707e725_0          89 KB  conda-forge
+    cloudpickle-3.1.1          |     pyhd8ed1ab_0          25 KB  conda-forge
+    contourpy-1.3.2            |  py310h3788b33_0         255 KB  conda-forge
+    cpython-3.10.19            |  py310hd8ed1ab_2          49 KB  conda-forge
+    cryptography-46.0.3        |  py310hed992bd_0         1.6 MB  conda-forge
+    debugpy-1.8.17             |  py310h25320af_0         2.1 MB  conda-forge
+    deprecated-1.2.18          |     pyhd8ed1ab_0          14 KB  conda-forge
+    docker-py-7.1.0            |     pyhd8ed1ab_1         102 KB  conda-forge
+    docker-pycreds-0.4.0       |             py_0          11 KB  conda-forge
+    entrypoints-0.4            |     pyhd8ed1ab_1          11 KB  conda-forge
+    flask-3.1.2                |     pyhd8ed1ab_0          81 KB  conda-forge
+    fonttools-4.60.1           |  py310h3406613_0         2.3 MB  conda-forge
+    gflags-2.2.2               |    h5888daf_1005         117 KB  conda-forge
+    gitdb-4.0.12               |     pyhd8ed1ab_0          52 KB  conda-forge
+    gitpython-3.1.45           |     pyhff2d567_0         154 KB  conda-forge
+    glog-0.7.1                 |       hbabe93e_0         140 KB  conda-forge
+    graphene-3.4.3             |     pyhd8ed1ab_1          47 KB  conda-forge
+    graphql-core-3.2.6         |     pyh29332c3_0         376 KB  conda-forge
+    graphql-relay-3.2.0        |     pyhd8ed1ab_1          31 KB  conda-forge
+    greenlet-3.2.4             |  py310hea6c23e_1         213 KB  conda-forge
+    gunicorn-22.0.0            |  py310hff52083_0         136 KB  conda-forge
+    importlib-metadata-7.2.1   |     pyha770c72_0          27 KB  conda-forge
+    invoke-2.2.1               |     pyhd8ed1ab_0         130 KB  conda-forge
+    ipython-8.37.0             |     pyh8f84b5b_0         624 KB  conda-forge
+    itsdangerous-2.2.0         |     pyhd8ed1ab_1          19 KB  conda-forge
+    joblib-1.5.2               |     pyhd8ed1ab_0         219 KB  conda-forge
+    jsonpointer-3.0.0          |  py310hff52083_2          16 KB  conda-forge
+    kiwisolver-1.4.9           |  py310haaf941d_1          76 KB  conda-forge
+    libabseil-20240116.2       | cxx17_he02047a_1         1.2 MB  conda-forge
+    libarrow-13.0.0            |  hbec76fc_49_cpu        26.5 MB  conda-forge
+    libbrotlicommon-1.1.0      |       hb03c661_4          68 KB  conda-forge
+    libbrotlidec-1.1.0         |       hb03c661_4          33 KB  conda-forge
+    libbrotlienc-1.1.0         |       hb03c661_4         283 KB  conda-forge
+    libcap-2.71                |       h39aace5_0         100 KB  conda-forge
+    libcrc32c-1.1.2            |       h9c3ff4c_0          20 KB  conda-forge
+    libcurl-8.16.0             |       h4e3cde8_0         449 KB  conda-forge
+    libev-4.33                 |       hd590300_2         110 KB  conda-forge
+    libevent-2.1.12            |       hf998b51_1         417 KB  conda-forge
+    libgcrypt-lib-1.11.1       |       hb9d3cd8_0         577 KB  conda-forge
+    libgoogle-cloud-2.26.0     |       h26d7fe4_0         1.2 MB  conda-forge
+    libgoogle-cloud-storage-2.26.0|       ha262f82_0         746 KB  conda-forge
+    libgpg-error-1.55          |       h3f2d84a_0         305 KB  conda-forge
+    libgrpc-1.62.2             |       h15f2491_0         7.0 MB  conda-forge
+    liblzma-devel-5.8.1        |       hb9d3cd8_2         430 KB  conda-forge
+    libnghttp2-1.67.0          |       had1ee68_0         651 KB  conda-forge
+    libnl-3.11.0               |       hb9d3cd8_0         724 KB  conda-forge
+    libnsl-2.0.1               |       hb9d3cd8_1          33 KB  conda-forge
+    libprotobuf-4.25.3         |       hd5b35b9_1         2.7 MB  conda-forge
+    libre2-11-2023.09.01       |       h5a48ba9_2         227 KB  conda-forge
+    libssh2-1.11.1             |       hcf80075_0         298 KB  conda-forge
+    libsystemd0-256.9          |       h2774228_0         401 KB  conda-forge
+    libthrift-0.19.0           |       hb90f79a_1         400 KB  conda-forge
+    libudev1-257.4             |       h9a4d06a_0         140 KB  conda-forge
+    libutf8proc-2.8.0          |       hf23e847_1          79 KB  conda-forge
+    lz4-c-1.9.4                |       hcb278e6_0         140 KB  conda-forge
+    mako-1.3.10                |     pyhd8ed1ab_0          66 KB  conda-forge
+    markdown-3.9               |     pyhd8ed1ab_0          79 KB  conda-forge
+    markupsafe-3.0.3           |  py310h3406613_0          23 KB  conda-forge
+    matplotlib-3.10.6          |  py310hff52083_1          17 KB  conda-forge
+    matplotlib-base-3.10.6     |  py310hfde16b3_1         7.1 MB  conda-forge
+    mlflow-2.14.1              |       hff52083_0          16 KB  conda-forge
+    mlflow-skinny-2.14.1       |  py310hff52083_0         4.7 MB  conda-forge
+    mlflow-ui-2.14.1           |  py310hff52083_0         4.2 MB  conda-forge
+    numpy-1.26.4               |  py310hb13e2d6_0         6.7 MB  conda-forge
+    opentelemetry-api-1.38.0   |     pyhd8ed1ab_0          45 KB  conda-forge
+    opentelemetry-sdk-1.38.0   |     pyhd8ed1ab_0          82 KB  conda-forge
+    opentelemetry-semantic-conventions-0.59b0|     pyh3cfb1c2_0         109 KB  conda-forge
+    orc-2.0.1                  |       h17fec99_1        1006 KB  conda-forge
+    packaging-24.2             |     pyhd8ed1ab_2          59 KB  conda-forge
+    pandas-2.3.3               |  py310h0158d43_1        12.0 MB  conda-forge
+    paramiko-4.0.0             |     pyhd8ed1ab_0         156 KB  conda-forge
+    pillow-12.0.0              |  py310h80abafc_0         862 KB  conda-forge
+    pip-25.2                   |     pyh8b19718_0         1.1 MB  conda-forge
+    prometheus_flask_exporter-0.23.2|     pyhd8ed1ab_0          22 KB  conda-forge
+    protobuf-4.25.3            |  py310h0e2eeba_1         324 KB  conda-forge
+    psutil-7.1.2               |  py310h139afa4_1         365 KB  conda-forge
+    pyarrow-13.0.0             |py310he4097f9_49_cpu         3.9 MB  conda-forge
+    pynacl-1.6.0               |  py310h7c4b9e2_0         1.1 MB  conda-forge
+    pyside6-6.9.3              |  py310h2007e60_1         9.6 MB  conda-forge
+    python-3.10.19             |h3c07f61_2_cpython        24.1 MB  conda-forge
+    python-gil-3.10.19         |       hd8ed1ab_2          49 KB  conda-forge
+    python_abi-3.10            |          8_cp310           7 KB  conda-forge
+    pytz-2024.2                |     pyhd8ed1ab_1         182 KB  conda-forge
+    pywin32-on-windows-0.1.0   |     pyh1179c8e_3           5 KB  conda-forge
+    pyyaml-6.0.3               |  py310h3406613_0         177 KB  conda-forge
+    pyzmq-27.1.0               |  py310h4f33d48_0         319 KB  conda-forge
+    querystring_parser-1.2.4   |     pyhd8ed1ab_2          13 KB  conda-forge
+    rdma-core-55.0             |       h5888daf_0         1.2 MB  conda-forge
+    re2-2023.09.01             |       h7f4b329_2          26 KB  conda-forge
+    rpds-py-0.28.0             |  py310hd8f68c5_1         370 KB  conda-forge
+    s2n-1.4.17                 |       he19d79f_0         342 KB  conda-forge
+    scikit-learn-1.7.2         |  py310h228f341_0         8.0 MB  conda-forge
+    scipy-1.15.2               |  py310h1d65ade_0        15.7 MB  conda-forge
+    sentry-sdk-2.43.0          |     pyhd8ed1ab_0         248 KB  conda-forge
+    setproctitle-1.3.6         |  py310h7c4b9e2_1          20 KB  conda-forge
+    smmap-5.0.2                |     pyhd8ed1ab_0          25 KB  conda-forge
+    snappy-1.2.2               |       h03e3b7b_0          45 KB  conda-forge
+    sqlalchemy-2.0.44          |  py310h7c4b9e2_0         2.8 MB  conda-forge
+    sqlparse-0.5.3             |     pyhd8ed1ab_0          39 KB  conda-forge
+    threadpoolctl-3.6.0        |     pyhecae5ae_0          23 KB  conda-forge
+    tornado-6.5.2              |  py310h7c4b9e2_1         646 KB  conda-forge
+    ucx-1.16.0                 |       h209287a_5         6.7 MB  conda-forge
+    unicodedata2-16.0.0        |  py310h7c4b9e2_1         397 KB  conda-forge
+    wandb-0.16.6               |     pyhd8ed1ab_1         1.4 MB  conda-forge
+    werkzeug-3.1.3             |     pyhd8ed1ab_1         238 KB  conda-forge
+    wheel-0.45.1               |     pyhd8ed1ab_1          61 KB  conda-forge
+    wrapt-1.17.3               |  py310h7c4b9e2_1          56 KB  conda-forge
+    xz-5.8.1                   |       hbcc6ac9_2          23 KB  conda-forge
+    xz-gpl-tools-5.8.1         |       hbcc6ac9_2          33 KB  conda-forge
+    xz-tools-5.8.1             |       hb9d3cd8_2          94 KB  conda-forge
+    zstandard-0.25.0           |  py310h139afa4_0         445 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:       177.7 MB
+
+The following NEW packages will be INSTALLED:
+
+  alembic            conda-forge/noarch::alembic-1.17.1-pyhd8ed1ab_0 
+  appdirs            conda-forge/noarch::appdirs-1.4.4-pyhd8ed1ab_1 
+  attr               conda-forge/linux-64::attr-2.5.2-h39aace5_0 
+  aws-c-auth         conda-forge/linux-64::aws-c-auth-0.7.22-hbd3ac97_10 
+  aws-c-cal          conda-forge/linux-64::aws-c-cal-0.7.1-h87b94db_1 
+  aws-c-common       conda-forge/linux-64::aws-c-common-0.9.23-h4ab18f5_0 
+  aws-c-compression  conda-forge/linux-64::aws-c-compression-0.2.18-he027950_7 
+  aws-c-event-stream conda-forge/linux-64::aws-c-event-stream-0.4.2-h7671281_15 
+  aws-c-http         conda-forge/linux-64::aws-c-http-0.8.2-he17ee6b_6 
+  aws-c-io           conda-forge/linux-64::aws-c-io-0.14.10-h826b7d6_1 
+  aws-c-mqtt         conda-forge/linux-64::aws-c-mqtt-0.10.4-hcd6a914_8 
+  aws-c-s3           conda-forge/linux-64::aws-c-s3-0.6.0-h365ddd8_2 
+  aws-c-sdkutils     conda-forge/linux-64::aws-c-sdkutils-0.1.16-he027950_3 
+  aws-checksums      conda-forge/linux-64::aws-checksums-0.1.18-he027950_7 
+  aws-crt-cpp        conda-forge/linux-64::aws-crt-cpp-0.27.3-hda66527_2 
+  aws-sdk-cpp        conda-forge/linux-64::aws-sdk-cpp-1.11.329-h46c3b66_9 
+  bcrypt             conda-forge/linux-64::bcrypt-5.0.0-py310hd8f68c5_0 
+  blinker            conda-forge/noarch::blinker-1.9.0-pyhff2d567_0 
+  c-ares             conda-forge/linux-64::c-ares-1.34.5-hb9d3cd8_0 
+  cachetools         conda-forge/noarch::cachetools-5.5.2-pyhd8ed1ab_0 
+  click              conda-forge/noarch::click-8.3.0-pyh707e725_0 
+  cloudpickle        conda-forge/noarch::cloudpickle-3.1.1-pyhd8ed1ab_0 
+  cryptography       conda-forge/linux-64::cryptography-46.0.3-py310hed992bd_0 
+  deprecated         conda-forge/noarch::deprecated-1.2.18-pyhd8ed1ab_0 
+  docker-py          conda-forge/noarch::docker-py-7.1.0-pyhd8ed1ab_1 
+  docker-pycreds     conda-forge/noarch::docker-pycreds-0.4.0-py_0 
+  entrypoints        conda-forge/noarch::entrypoints-0.4-pyhd8ed1ab_1 
+  flask              conda-forge/noarch::flask-3.1.2-pyhd8ed1ab_0 
+  gflags             conda-forge/linux-64::gflags-2.2.2-h5888daf_1005 
+  gitdb              conda-forge/noarch::gitdb-4.0.12-pyhd8ed1ab_0 
+  gitpython          conda-forge/noarch::gitpython-3.1.45-pyhff2d567_0 
+  glog               conda-forge/linux-64::glog-0.7.1-hbabe93e_0 
+  graphene           conda-forge/noarch::graphene-3.4.3-pyhd8ed1ab_1 
+  graphql-core       conda-forge/noarch::graphql-core-3.2.6-pyh29332c3_0 
+  graphql-relay      conda-forge/noarch::graphql-relay-3.2.0-pyhd8ed1ab_1 
+  greenlet           conda-forge/linux-64::greenlet-3.2.4-py310hea6c23e_1 
+  gunicorn           conda-forge/linux-64::gunicorn-22.0.0-py310hff52083_0 
+  invoke             conda-forge/noarch::invoke-2.2.1-pyhd8ed1ab_0 
+  itsdangerous       conda-forge/noarch::itsdangerous-2.2.0-pyhd8ed1ab_1 
+  joblib             conda-forge/noarch::joblib-1.5.2-pyhd8ed1ab_0 
+  libabseil          conda-forge/linux-64::libabseil-20240116.2-cxx17_he02047a_1 
+  libarrow           conda-forge/linux-64::libarrow-13.0.0-hbec76fc_49_cpu 
+  libcap             conda-forge/linux-64::libcap-2.71-h39aace5_0 
+  libcrc32c          conda-forge/linux-64::libcrc32c-1.1.2-h9c3ff4c_0 
+  libcurl            conda-forge/linux-64::libcurl-8.16.0-h4e3cde8_0 
+  libev              conda-forge/linux-64::libev-4.33-hd590300_2 
+  libevent           conda-forge/linux-64::libevent-2.1.12-hf998b51_1 
+  libgcrypt-lib      conda-forge/linux-64::libgcrypt-lib-1.11.1-hb9d3cd8_0 
+  libgoogle-cloud    conda-forge/linux-64::libgoogle-cloud-2.26.0-h26d7fe4_0 
+  libgoogle-cloud-s~ conda-forge/linux-64::libgoogle-cloud-storage-2.26.0-ha262f82_0 
+  libgpg-error       conda-forge/linux-64::libgpg-error-1.55-h3f2d84a_0 
+  libgrpc            conda-forge/linux-64::libgrpc-1.62.2-h15f2491_0 
+  liblzma-devel      conda-forge/linux-64::liblzma-devel-5.8.1-hb9d3cd8_2 
+  libnghttp2         conda-forge/linux-64::libnghttp2-1.67.0-had1ee68_0 
+  libnl              conda-forge/linux-64::libnl-3.11.0-hb9d3cd8_0 
+  libnsl             conda-forge/linux-64::libnsl-2.0.1-hb9d3cd8_1 
+  libprotobuf        conda-forge/linux-64::libprotobuf-4.25.3-hd5b35b9_1 
+  libre2-11          conda-forge/linux-64::libre2-11-2023.09.01-h5a48ba9_2 
+  libssh2            conda-forge/linux-64::libssh2-1.11.1-hcf80075_0 
+  libsystemd0        conda-forge/linux-64::libsystemd0-256.9-h2774228_0 
+  libthrift          conda-forge/linux-64::libthrift-0.19.0-hb90f79a_1 
+  libudev1           conda-forge/linux-64::libudev1-257.4-h9a4d06a_0 
+  libutf8proc        conda-forge/linux-64::libutf8proc-2.8.0-hf23e847_1 
+  lz4-c              conda-forge/linux-64::lz4-c-1.9.4-hcb278e6_0 
+  mako               conda-forge/noarch::mako-1.3.10-pyhd8ed1ab_0 
+  markdown           conda-forge/noarch::markdown-3.9-pyhd8ed1ab_0 
+  mlflow             conda-forge/linux-64::mlflow-2.14.1-hff52083_0 
+  mlflow-skinny      conda-forge/linux-64::mlflow-skinny-2.14.1-py310hff52083_0 
+  mlflow-ui          conda-forge/linux-64::mlflow-ui-2.14.1-py310hff52083_0 
+  opentelemetry-api  conda-forge/noarch::opentelemetry-api-1.38.0-pyhd8ed1ab_0 
+  opentelemetry-sdk  conda-forge/noarch::opentelemetry-sdk-1.38.0-pyhd8ed1ab_0 
+  opentelemetry-sem~ conda-forge/noarch::opentelemetry-semantic-conventions-0.59b0-pyh3cfb1c2_0 
+  orc                conda-forge/linux-64::orc-2.0.1-h17fec99_1 
+  paramiko           conda-forge/noarch::paramiko-4.0.0-pyhd8ed1ab_0 
+  pip                conda-forge/noarch::pip-25.2-pyh8b19718_0 
+  prometheus_flask_~ conda-forge/noarch::prometheus_flask_exporter-0.23.2-pyhd8ed1ab_0 
+  protobuf           conda-forge/linux-64::protobuf-4.25.3-py310h0e2eeba_1 
+  pyarrow            conda-forge/linux-64::pyarrow-13.0.0-py310he4097f9_49_cpu 
+  pynacl             conda-forge/linux-64::pynacl-1.6.0-py310h7c4b9e2_0 
+  pywin32-on-windows conda-forge/noarch::pywin32-on-windows-0.1.0-pyh1179c8e_3 
+  querystring_parser conda-forge/noarch::querystring_parser-1.2.4-pyhd8ed1ab_2 
+  rdma-core          conda-forge/linux-64::rdma-core-55.0-h5888daf_0 
+  re2                conda-forge/linux-64::re2-2023.09.01-h7f4b329_2 
+  s2n                conda-forge/linux-64::s2n-1.4.17-he19d79f_0 
+  scikit-learn       conda-forge/linux-64::scikit-learn-1.7.2-py310h228f341_0 
+  scipy              conda-forge/linux-64::scipy-1.15.2-py310h1d65ade_0 
+  sentry-sdk         conda-forge/noarch::sentry-sdk-2.43.0-pyhd8ed1ab_0 
+  setproctitle       conda-forge/linux-64::setproctitle-1.3.6-py310h7c4b9e2_1 
+  smmap              conda-forge/noarch::smmap-5.0.2-pyhd8ed1ab_0 
+  snappy             conda-forge/linux-64::snappy-1.2.2-h03e3b7b_0 
+  sqlalchemy         conda-forge/linux-64::sqlalchemy-2.0.44-py310h7c4b9e2_0 
+  sqlparse           conda-forge/noarch::sqlparse-0.5.3-pyhd8ed1ab_0 
+  threadpoolctl      conda-forge/noarch::threadpoolctl-3.6.0-pyhecae5ae_0 
+  ucx                conda-forge/linux-64::ucx-1.16.0-h209287a_5 
+  unicodedata2       conda-forge/linux-64::unicodedata2-16.0.0-py310h7c4b9e2_1 
+  wandb              conda-forge/noarch::wandb-0.16.6-pyhd8ed1ab_1 
+  werkzeug           conda-forge/noarch::werkzeug-3.1.3-pyhd8ed1ab_1 
+  wheel              conda-forge/noarch::wheel-0.45.1-pyhd8ed1ab_1 
+  wrapt              conda-forge/linux-64::wrapt-1.17.3-py310h7c4b9e2_1 
+  xz                 conda-forge/linux-64::xz-5.8.1-hbcc6ac9_2 
+  xz-gpl-tools       conda-forge/linux-64::xz-gpl-tools-5.8.1-hbcc6ac9_2 
+  xz-tools           conda-forge/linux-64::xz-tools-5.8.1-hb9d3cd8_2 
+
+The following packages will be REMOVED:
+
+  libmpdec-4.0.0-hb9d3cd8_0
+
+The following packages will be UPDATED:
+
+  pandas                              2.3.2-py313h08cd8bf_0 --> 2.3.3-py310h0158d43_1 
+
+The following packages will be DOWNGRADED:
+
+  brotli                                   1.2.0-h41a2e66_0 --> 1.1.0-hb03c661_4 
+  brotli-bin                               1.2.0-hf2c8021_0 --> 1.1.0-hb03c661_4 
+  brotli-python                       1.2.0-py313h09d1b84_0 --> 1.1.0-py310hea6c23e_4 
+  contourpy                           1.3.3-py313h7037e92_2 --> 1.3.2-py310h3788b33_0 
+  cpython                          3.13.9-py313hd8ed1ab_101 --> 3.10.19-py310hd8ed1ab_2 
+  importlib-metadata                     8.7.0-pyhe01879c_1 --> 7.2.1-pyha770c72_0 
+  ipython                                9.6.0-pyhfa0c392_0 --> 8.37.0-pyh8f84b5b_0 
+  libbrotlicommon                          1.2.0-h09219d5_0 --> 1.1.0-hb03c661_4 
+  libbrotlidec                             1.2.0-hd53d788_0 --> 1.1.0-hb03c661_4 
+  libbrotlienc                             1.2.0-h02bd7ab_0 --> 1.1.0-hb03c661_4 
+  numpy                               2.3.4-py313hf6604e3_0 --> 1.26.4-py310hb13e2d6_0 
+  packaging                               25.0-pyh29332c3_1 --> 24.2-pyhd8ed1ab_2 
+  python                          3.13.9-hc97d973_101_cp313 --> 3.10.19-h3c07f61_2_cpython 
+  python-gil                            3.13.9-h4df99d1_101 --> 3.10.19-hd8ed1ab_2 
+  python_abi                                   3.13-8_cp313 --> 3.10-8_cp310 
+  pytz                                  2025.2-pyhd8ed1ab_0 --> 2024.2-pyhd8ed1ab_1 
+
+The following packages will be REVISED:
+
+  argon2-cffi-bindi~                 25.1.0-py313h07c4f96_1 --> 25.1.0-py310h7c4b9e2_1 
+  cffi                                2.0.0-py313hf46b229_1 --> 2.0.0-py310he7384ee_1 
+  debugpy                            1.8.17-py313h5d5ffb9_0 --> 1.8.17-py310h25320af_0 
+  fonttools                          4.60.1-py313h3dea7bd_0 --> 4.60.1-py310h3406613_0 
+  jsonpointer                         3.0.0-py313h78bf25f_2 --> 3.0.0-py310hff52083_2 
+  kiwisolver                          1.4.9-py313hc8edb43_1 --> 1.4.9-py310haaf941d_1 
+  markupsafe                          3.0.3-py313h3dea7bd_0 --> 3.0.3-py310h3406613_0 
+  matplotlib                         3.10.6-py313h78bf25f_1 --> 3.10.6-py310hff52083_1 
+  matplotlib-base                    3.10.6-py313h683a580_1 --> 3.10.6-py310hfde16b3_1 
+  pillow                             12.0.0-py313h50355cd_0 --> 12.0.0-py310h80abafc_0 
+  psutil                              7.1.2-py313h54dd161_1 --> 7.1.2-py310h139afa4_1 
+  pyside6                             6.9.3-py313h85046ba_1 --> 6.9.3-py310h2007e60_1 
+  pyyaml                              6.0.3-py313h3dea7bd_0 --> 6.0.3-py310h3406613_0 
+  pyzmq                              27.1.0-py312hfb55c3c_0 --> 27.1.0-py310h4f33d48_0 
+  rpds-py                            0.28.0-py313h843e2db_1 --> 0.28.0-py310hd8f68c5_1 
+  tornado                             6.5.2-py313h07c4f96_1 --> 6.5.2-py310h7c4b9e2_1 
+  zstandard                          0.25.0-py313h54dd161_0 --> 0.25.0-py310h139afa4_0 
+
+
+
+Downloading and Extracting Packages: ...working...libarrow-13.0.0      | 26.5 MB   |            |   0% 
+python-3.10.19       | 24.1 MB   |            |   0% [A
+
+scipy-1.15.2         | 15.7 MB   |            |   0% [A[A
+
+
+pandas-2.3.3         | 12.0 MB   |            |   0% [A[A[A
+
+
+
+pyside6-6.9.3        | 9.6 MB    |            |   0% [A[A[A[A
+
+
+
+
+scikit-learn-1.7.2   | 8.0 MB    |            |   0% [A[A[A[A[A
+
+
+
+
+
+matplotlib-base-3.10 | 7.1 MB    |            |   0% [A[A[A[A[A[A
+
+
+
+
+
+
+libgrpc-1.62.2       | 7.0 MB    |            |   0% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+ucx-1.16.0           | 6.7 MB    |            |   0% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+numpy-1.26.4         | 6.7 MB    |            |   0% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+mlflow-skinny-2.14.1 | 4.7 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+mlflow-ui-2.14.1     | 4.2 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+pyarrow-13.0.0       | 3.9 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+aws-sdk-cpp-1.11.329 | 3.5 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+sqlalchemy-2.0.44    | 2.8 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libprotobuf-4.25.3   | 2.7 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fonttools-4.60.1     | 2.3 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+debugpy-1.8.17       | 2.1 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+cryptography-46.0.3  | 1.6 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+pandas-2.3.3         | 12.0 MB   |            |   0% [A[A[A
+python-3.10.19       | 24.1 MB   |            |   0% [A
+
+
+
+pyside6-6.9.3        | 9.6 MB    |            |   0% [A[A[A[A
+
+scipy-1.15.2         | 15.7 MB   |            |   0% [A[A
+
+
+pandas-2.3.3         | 12.0 MB   | 3          |   3% [A[A[A
+python-3.10.19       | 24.1 MB   | 2          |   2% [A
+
+
+
+pyside6-6.9.3        | 9.6 MB    | 3          |   3% [A[A[A[A
+
+scipy-1.15.2         | 15.7 MB   | 2          |   2% [A[A
+
+
+pandas-2.3.3         | 12.0 MB   | #5         |  16% [A[A[A
+python-3.10.19       | 24.1 MB   | 8          |   8% [Alibarrow-13.0.0      | 26.5 MB   |            |   0% 
+
+
+
+pyside6-6.9.3        | 9.6 MB    | #          |  10% [A[A[A[A
+
+scipy-1.15.2         | 15.7 MB   | 5          |   6% [A[A
+
+
+pandas-2.3.3         | 12.0 MB   | ##5        |  25% [A[A[A
+python-3.10.19       | 24.1 MB   | #2         |  13% [Alibarrow-13.0.0      | 26.5 MB   |            |   0% 
+
+
+
+pyside6-6.9.3        | 9.6 MB    | #5         |  16% [A[A[A[A
+
+scipy-1.15.2         | 15.7 MB   | 9          |  10% [A[A
+
+
+pandas-2.3.3         | 12.0 MB   | ###4       |  35% [A[A[A
+python-3.10.19       | 24.1 MB   | #8         |  18% [Alibarrow-13.0.0      | 26.5 MB   |            |   1% 
+
+scipy-1.15.2         | 15.7 MB   | #2         |  13% [A[A
+
+
+
+pyside6-6.9.3        | 9.6 MB    | ##1        |  21% [A[A[A[A
+
+
+pandas-2.3.3         | 12.0 MB   | ####2      |  43% [A[A[A
+python-3.10.19       | 24.1 MB   | ##2        |  23% [Alibarrow-13.0.0      | 26.5 MB   | 2          |   3% 
+
+
+
+pyside6-6.9.3        | 9.6 MB    | ##8        |  29% [A[A[A[A
+
+scipy-1.15.2         | 15.7 MB   | ##         |  21% [A[A
+
+
+pandas-2.3.3         | 12.0 MB   | #####7     |  57% [A[A[A
+python-3.10.19       | 24.1 MB   | ##7        |  27% [Alibarrow-13.0.0      | 26.5 MB   | 5          |   5% 
+
+
+
+pyside6-6.9.3        | 9.6 MB    | ###5       |  35% [A[A[A[A
+
+scipy-1.15.2         | 15.7 MB   | ##7        |  28% [A[A
+
+
+pandas-2.3.3         | 12.0 MB   | ######7    |  67% [A[A[A
+python-3.10.19       | 24.1 MB   | ###3       |  33% [Alibarrow-13.0.0      | 26.5 MB   | 6          |   7% 
+
+scipy-1.15.2         | 15.7 MB   | ###3       |  34% [A[A
+
+
+pandas-2.3.3         | 12.0 MB   | #######6   |  77% [A[A[A
+
+
+
+pyside6-6.9.3        | 9.6 MB    | ####1      |  41% [A[A[A[Alibarrow-13.0.0      | 26.5 MB   | 8          |   9% 
+python-3.10.19       | 24.1 MB   | ###7       |  38% [A
+
+scipy-1.15.2         | 15.7 MB   | ###9       |  39% [A[A
+
+
+pandas-2.3.3         | 12.0 MB   | ########7  |  87% [A[A[A
+
+
+
+pyside6-6.9.3        | 9.6 MB    | ####9      |  49% [A[A[A[A
+python-3.10.19       | 24.1 MB   | ####3      |  43% [A
+
+scipy-1.15.2         | 15.7 MB   | ####7      |  47% [A[Alibarrow-13.0.0      | 26.5 MB   | #1         |  12% 
+
+
+pandas-2.3.3         | 12.0 MB   | #########8 |  99% [A[A[A
+
+
+pandas-2.3.3         | 12.0 MB   | ########## | 100% [A[A[Alibarrow-13.0.0      | 26.5 MB   | #4         |  14% 
+python-3.10.19       | 24.1 MB   | ####7      |  48% [A
+
+
+
+pyside6-6.9.3        | 9.6 MB    | #####5     |  55% [A[A[A[A
+
+scipy-1.15.2         | 15.7 MB   | #####3     |  53% [A[A
+
+
+
+
+scikit-learn-1.7.2   | 8.0 MB    |            |   0% [A[A[A[A[Alibarrow-13.0.0      | 26.5 MB   | #9         |  19% 
+python-3.10.19       | 24.1 MB   | #####6     |  56% [A
+
+scipy-1.15.2         | 15.7 MB   | ######5    |  65% [A[A
+
+
+
+pyside6-6.9.3        | 9.6 MB    | ######5    |  66% [A[A[A[A
+
+
+
+
+scikit-learn-1.7.2   | 8.0 MB    | #8         |  18% [A[A[A[A[Alibarrow-13.0.0      | 26.5 MB   | ##2        |  22% 
+python-3.10.19       | 24.1 MB   | ######1    |  62% [A
+
+scipy-1.15.2         | 15.7 MB   | #######2   |  73% [A[A
+
+
+
+pyside6-6.9.3        | 9.6 MB    | #######2   |  72% [A[A[A[A
+
+
+
+
+scikit-learn-1.7.2   | 8.0 MB    | ###        |  31% [A[A[A[A[Alibarrow-13.0.0      | 26.5 MB   | ##5        |  25% 
+
+scipy-1.15.2         | 15.7 MB   | #######9   |  79% [A[A
+
+
+
+pyside6-6.9.3        | 9.6 MB    | #######8   |  78% [A[A[A[A
+python-3.10.19       | 24.1 MB   | ######6    |  67% [A
+
+
+
+
+scikit-learn-1.7.2   | 8.0 MB    | ####1      |  41% [A[A[A[A[A
+
+scipy-1.15.2         | 15.7 MB   | ########7  |  87% [A[Alibarrow-13.0.0      | 26.5 MB   | ##8        |  28% 
+
+
+
+pyside6-6.9.3        | 9.6 MB    | ########5  |  86% [A[A[A[A
+python-3.10.19       | 24.1 MB   | #######2   |  72% [A
+
+
+
+
+scikit-learn-1.7.2   | 8.0 MB    | #####6     |  56% [A[A[A[A[A
+
+scipy-1.15.2         | 15.7 MB   | #########4 |  94% [A[Alibarrow-13.0.0      | 26.5 MB   | ###        |  31% 
+
+
+
+
+scikit-learn-1.7.2   | 8.0 MB    | ######8    |  68% [A[A[A[A[A
+
+
+
+pyside6-6.9.3        | 9.6 MB    | #########1 |  92% [A[A[A[A
+python-3.10.19       | 24.1 MB   | #######6   |  77% [A
+
+
+pandas-2.3.3         | 12.0 MB   | ########## | 100% [A[A[Alibarrow-13.0.0      | 26.5 MB   | ###3       |  33% 
+
+scipy-1.15.2         | 15.7 MB   | ########## | 100% [A[A
+
+
+
+
+scikit-learn-1.7.2   | 8.0 MB    | #########1 |  91% [A[A[A[A[A
+
+
+
+pyside6-6.9.3        | 9.6 MB    | ########## | 100% [A[A[A[A
+
+
+
+pyside6-6.9.3        | 9.6 MB    | ########## | 100% [A[A[A[A
+python-3.10.19       | 24.1 MB   | ########3  |  84% [A
+
+
+
+
+scikit-learn-1.7.2   | 8.0 MB    | ########## | 100% [A[A[A[A[Alibarrow-13.0.0      | 26.5 MB   | ###8       |  39% 
+python-3.10.19       | 24.1 MB   | #########  |  91% [Alibarrow-13.0.0      | 26.5 MB   | ####3      |  43% 
+
+
+
+
+
+
+libgrpc-1.62.2       | 7.0 MB    |            |   0% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+ucx-1.16.0           | 6.7 MB    |            |   0% [A[A[A[A[A[A[A[A
+python-3.10.19       | 24.1 MB   | #########6 |  97% [Alibarrow-13.0.0      | 26.5 MB   | #####3     |  53% 
+
+
+
+
+
+matplotlib-base-3.10 | 7.1 MB    |            |   0% [A[A[A[A[A[A
+
+
+
+
+
+
+libgrpc-1.62.2       | 7.0 MB    | #1         |  11% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+ucx-1.16.0           | 6.7 MB    | ##         |  21% [A[A[A[A[A[A[A[Alibarrow-13.0.0      | 26.5 MB   | ######     |  61% 
+
+
+
+
+
+
+libgrpc-1.62.2       | 7.0 MB    | ##1        |  21% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+ucx-1.16.0           | 6.7 MB    | ###3       |  33% [A[A[A[A[A[A[A[Alibarrow-13.0.0      | 26.5 MB   | ######6    |  67% 
+
+
+
+
+
+
+libgrpc-1.62.2       | 7.0 MB    | ##9        |  30% [A[A[A[A[A[A[A
+
+
+
+
+
+matplotlib-base-3.10 | 7.1 MB    | 6          |   6% [A[A[A[A[A[A
+
+
+
+
+
+
+
+ucx-1.16.0           | 6.7 MB    | #####6     |  57% [A[A[A[A[A[A[A[Alibarrow-13.0.0      | 26.5 MB   | #######5   |  76% 
+python-3.10.19       | 24.1 MB   | ########## | 100% [A
+
+
+
+
+
+
+libgrpc-1.62.2       | 7.0 MB    | ####2      |  43% [A[A[A[A[A[A[A
+
+
+
+
+
+matplotlib-base-3.10 | 7.1 MB    | ###3       |  33% [A[A[A[A[A[A
+
+
+
+
+
+
+
+ucx-1.16.0           | 6.7 MB    | ########3  |  83% [A[A[A[A[A[A[A[Alibarrow-13.0.0      | 26.5 MB   | ########2  |  82% 
+
+
+
+
+
+
+libgrpc-1.62.2       | 7.0 MB    | #####2     |  53% [A[A[A[A[A[A[A
+
+
+
+
+
+matplotlib-base-3.10 | 7.1 MB    | #####1     |  51% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+numpy-1.26.4         | 6.7 MB    |            |   0% [A[A[A[A[A[A[A[A[Alibarrow-13.0.0      | 26.5 MB   | #########3 |  93% 
+
+
+
+
+
+matplotlib-base-3.10 | 7.1 MB    | ######6    |  66% [A[A[A[A[A[A
+
+
+
+
+
+
+libgrpc-1.62.2       | 7.0 MB    | ######2    |  62% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+numpy-1.26.4         | 6.7 MB    | #4         |  14% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+ucx-1.16.0           | 6.7 MB    | ########## | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+matplotlib-base-3.10 | 7.1 MB    | #########3 |  94% [A[A[A[A[A[A
+
+
+
+
+
+
+libgrpc-1.62.2       | 7.0 MB    | #######9   |  79% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+numpy-1.26.4         | 6.7 MB    | ####3      |  44% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+libgrpc-1.62.2       | 7.0 MB    | #########1 |  91% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+numpy-1.26.4         | 6.7 MB    | #######    |  71% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+mlflow-skinny-2.14.1 | 4.7 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A
+
+
+
+pyside6-6.9.3        | 9.6 MB    | ########## | 100% [A[A[A[A
+
+
+
+
+
+matplotlib-base-3.10 | 7.1 MB    | ########## | 100% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+numpy-1.26.4         | 6.7 MB    | #########3 |  94% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+mlflow-skinny-2.14.1 | 4.7 MB    | ##4        |  25% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+mlflow-ui-2.14.1     | 4.2 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+libgrpc-1.62.2       | 7.0 MB    | ########## | 100% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+mlflow-skinny-2.14.1 | 4.7 MB    | #####4     |  55% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+mlflow-ui-2.14.1     | 4.2 MB    | ##1        |  21% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+numpy-1.26.4         | 6.7 MB    | ########## | 100% [A[A[A[A[A[A[A[A[Alibarrow-13.0.0      | 26.5 MB   | ########## | 100% 
+
+
+
+
+
+
+
+
+
+
+mlflow-ui-2.14.1     | 4.2 MB    | #######    |  71% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+pyarrow-13.0.0       | 3.9 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+mlflow-skinny-2.14.1 | 4.7 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+mlflow-skinny-2.14.1 | 4.7 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+sqlalchemy-2.0.44    | 2.8 MB    |            |   1% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+mlflow-ui-2.14.1     | 4.2 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+mlflow-ui-2.14.1     | 4.2 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+pyarrow-13.0.0       | 3.9 MB    | ##2        |  22% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libprotobuf-4.25.3   | 2.7 MB    |            |   1% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+sqlalchemy-2.0.44    | 2.8 MB    | ###6       |  37% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+pyarrow-13.0.0       | 3.9 MB    | ###9       |  40% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fonttools-4.60.1     | 2.3 MB    |            |   1% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+sqlalchemy-2.0.44    | 2.8 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libprotobuf-4.25.3   | 2.7 MB    | ###6       |  37% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+pyarrow-13.0.0       | 3.9 MB    | ######4    |  64% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fonttools-4.60.1     | 2.3 MB    | ########3  |  83% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+aws-sdk-cpp-1.11.329 | 3.5 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fonttools-4.60.1     | 2.3 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libprotobuf-4.25.3   | 2.7 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libprotobuf-4.25.3   | 2.7 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+debugpy-1.8.17       | 2.1 MB    |            |   1% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+pyarrow-13.0.0       | 3.9 MB    | #########1 |  92% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+aws-sdk-cpp-1.11.329 | 3.5 MB    | ##6        |  27% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+cryptography-46.0.3  | 1.6 MB    |            |   1% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+aws-sdk-cpp-1.11.329 | 3.5 MB    | ########   |  80% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+debugpy-1.8.17       | 2.1 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+debugpy-1.8.17       | 2.1 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+pyarrow-13.0.0       | 3.9 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+aws-sdk-cpp-1.11.329 | 3.5 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+cryptography-46.0.3  | 1.6 MB    | #########8 |  98% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+cryptography-46.0.3  | 1.6 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+scipy-1.15.2         | 15.7 MB   | ########## | 100% [A[A
+
+
+
+
+scikit-learn-1.7.2   | 8.0 MB    | ########## | 100% [A[A[A[A[A
+
+
+
+
+
+
+
+ucx-1.16.0           | 6.7 MB    | ########## | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+matplotlib-base-3.10 | 7.1 MB    | ########## | 100% [A[A[A[A[A[A
+python-3.10.19       | 24.1 MB   | ########## | 100% [A
+
+
+
+
+
+
+libgrpc-1.62.2       | 7.0 MB    | ########## | 100% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+numpy-1.26.4         | 6.7 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+mlflow-skinny-2.14.1 | 4.7 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+mlflow-ui-2.14.1     | 4.2 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[Alibarrow-13.0.0      | 26.5 MB   | ########## | 100% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+sqlalchemy-2.0.44    | 2.8 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+sqlalchemy-2.0.44    | 2.8 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libprotobuf-4.25.3   | 2.7 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fonttools-4.60.1     | 2.3 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+debugpy-1.8.17       | 2.1 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+pyarrow-13.0.0       | 3.9 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+cryptography-46.0.3  | 1.6 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+aws-sdk-cpp-1.11.329 | 3.5 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A                                                     
+                                                     [A
+
+                                                     [A[A
+
+
+                                                     [A[A[A
+
+
+
+                                                     [A[A[A[A
+
+
+
+
+                                                     [A[A[A[A[A
+
+
+
+
+
+                                                     [A[A[A[A[A[A
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A done
+Preparing transaction: | / - \ | done
+Verifying transaction: - \ | / - \ | / - \ | / - \ | / - \ done
+Executing transaction: / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | 
+To enable CUDA support, UCX requires the CUDA Runtime library (libcudart).
+The library can be installed with the appropriate command below:
+
+* For CUDA 11, run:    conda install cudatoolkit cuda-version=11
+* For CUDA 12, run:    conda install cuda-cudart cuda-version=12
+
+
+/ - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | done

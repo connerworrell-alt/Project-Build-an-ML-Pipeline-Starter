@@ -1,99 +1,64 @@
 #!/usr/bin/env python
 """
-Download from W&B the raw dataset and apply some basic data cleaning, exporting the result to a new artifact
+Download from W&B the raw dataset and apply some basic data cleaning,
+exporting the result to a new artifact.
 """
 import argparse
 import logging
 import wandb
 import pandas as pd
 
-
 logging.basicConfig(level=logging.INFO, format="%(asctime)-15s %(message)s")
 logger = logging.getLogger()
 
-# DO NOT MODIFY
 def go(args):
+    # Single W&B run
+    run = wandb.init(job_type="basic_cleaning", save_code=True, project="nyc_airbnb", group="cleaning")
+    run.config.update(vars(args))
 
-    run = wandb.init(job_type="basic_cleaning")
-    run.config.update(args)
-
-    # Download input artifact. This will also log that this script is using this
-    
-    run = wandb.init(project="nyc_airbnb", group="cleaning", save_code=True)
+    # 1) Download the input artifact
     artifact_local_path = run.use_artifact(args.input_artifact).file()
     df = pd.read_csv(artifact_local_path)
-    # Drop outliers
-    min_price = args.min_price
-    max_price = args.max_price
-    idx = df['price'].between(min_price, max_price)
-    df = df[idx].copy()
-    # Convert last_review to datetime
-    df['last_review'] = pd.to_datetime(df['last_review'])
 
-    idx = df['longitude'].between(-74.25, -73.50) & df['latitude'].between(40.5, 41.2)
+    # 2) Drop price outliers
+    idx = df["price"].between(args.min_price, args.max_price)
     df = df[idx].copy()
-    # Save the cleaned file
-    df.to_csv('clean_sample.csv',index=False)
 
-    # log the new data.
+    # 3) Convert dates
+    df["last_review"] = pd.to_datetime(df["last_review"])
+
+    # 4) Keep only NYC bounding box
+    in_box = df["longitude"].between(-74.25, -73.50) & df["latitude"].between(40.5, 41.2)
+    df = df[in_box].copy()
+
+    # 5) Save and log cleaned artifact
+    output_path = "clean_sample.csv"
+    df.to_csv(output_path, index=False)
+
     artifact = wandb.Artifact(
-     args.output_artifact,
-     type=args.output_type,
-     description=args.output_description,
- )
-    artifact.add_file("clean_sample.csv")
+        name=args.output_artifact,
+        type=args.output_type,              # expect "clean_sample"
+        description=args.output_description
+    )
+    artifact.add_file(output_path)
     run.log_artifact(artifact)
 
-
-# TODO: In the code below, fill in the data type for each argumemt. The data type should be str, float or int. 
-# TODO: In the code below, fill in a description for each argument. The description should be a string.
 if __name__ == "__main__":
-
     parser = argparse.ArgumentParser(description="A very basic data cleaning")
-  
-    parser.add_argument(
-        "--input_artifact", 
-        type = ## INSERT TYPE HERE: str, float or int,
-        help = ## INSERT DESCRIPTION HERE,
-        required = True
-    )
 
-    parser.add_argument(
-        "--output_artifact", 
-        type = ## INSERT TYPE HERE: str, float or int,
-        help = ## INSERT DESCRIPTION HERE,
-        required = True
-    )
-
-    parser.add_argument(
-        "--output_type", 
-        type = ## INSERT TYPE HERE: str, float or int,
-        help = ## INSERT DESCRIPTION HERE,
-        required = True
-    )
-
-    parser.add_argument(
-        "--output_description", 
-        type = ## INSERT TYPE HERE: str, float or int,
-        help = ## INSERT DESCRIPTION HERE,
-        required = True
-    )
-
-    parser.add_argument(
-        "--min_price", 
-        type = ## INSERT TYPE HERE: str, float or int,
-        help = ## INSERT DESCRIPTION HERE,
-        required = True
-    )
-
-    parser.add_argument(
-        "--max_price",
-        type = ## INSERT TYPE HERE: str, float or int,
-        help = ## INSERT DESCRIPTION HERE,
-        required = True
-    )
-
+    parser.add_argument("--input_artifact", type=str,
+                        help="Input artifact to download, e.g., 'sample.csv:latest'", required=True)
+    parser.add_argument("--output_artifact", type=str,
+                        help="Name for the output artifact, e.g., 'clean_sample.csv'", required=True)
+    parser.add_argument("--output_type", type=str,
+                        help="Type of artifact, use 'clean_sample'", required=True)
+    parser.add_argument("--output_description", type=str,
+                        help="Short description for the cleaned dataset", required=True)
+    parser.add_argument("--min_price", type=float,
+                        help="Minimum nightly price to keep", required=True)
+    parser.add_argument("--max_price", type=float,
+                        help="Maximum nightly price to keep", required=True)
 
     args = parser.parse_args()
-
     go(args)
+
